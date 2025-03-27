@@ -57,7 +57,7 @@ let stringNumber = String(someNumber) //Yahan tune String() se number ko string 
     
 // kuch convention.
 
-    //JS me jis type ki value pehle ayyi uska converison sab me hoga(by hitesh sir).But mujhe essa smzjh ayya ki jo string hai usse print kar diya and jisme mathematical equation perform ho sakta hai ussme kiya and phir string ke saath concatenate kar diya.   
+    //left to right se execute krta hai. Jo sabse pehele type k number hai ussme sabko convert kar dega.like Example No : 3, 4. 
     console.log("1" + 2);
     console.log(1 + "2");
     console.log("1" + 2 + 2);
